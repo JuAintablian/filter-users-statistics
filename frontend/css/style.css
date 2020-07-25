@@ -1,0 +1,52 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.bordered {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 49% !important;
+}
+
+.border {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.flag {
+  width: 30px;
+  height: 15px;
+}
+
+.w-9 {
+  width: 90% !important;
+}
+
+bold {
+  font-weight: bold;
+}

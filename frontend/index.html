@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Pesquisa de usuários</title>
+  </head>
+  <body>
+    <div class="container w-9">
+      <h1 class="center">Pesquisa de usuários</h1>
+
+      <div id="spinner" class="flex-row flex-center">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span style="margin-left: 10px;">Aguarde...</span>
+      </div>
+
+      <div class="flex-row flex-center">
+        <input type="text" id="inputFilter" placeholder="Busca" />
+        <button
+          id="buttonFilter"
+          class="waves-effect waves-light btn"
+          style="margin-left: 5px;"
+        >
+          Buscar
+        </button>
+      </div>
+
+      <div class="row">
+        <div id="users" class="col s6 bordered"></div>
+        <div id="statistics" class="col s6 bordered">
+          <p>testetetstetetets</p>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
